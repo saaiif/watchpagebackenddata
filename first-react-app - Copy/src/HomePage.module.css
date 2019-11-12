@@ -1,0 +1,10 @@
+.MainFrame{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.vediocard{
+   width: calc(25% - 16px);
+   margin: 8px;
+}

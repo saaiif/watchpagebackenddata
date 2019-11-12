@@ -1,0 +1,68 @@
+.leftSection{
+   width: 100%;
+   background-color: white;
+   padding: 16px;
+   border-radius: 6px;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+.playersection{
+   width: 70%;
+   min-height: 70vh;
+   display: inline-block;
+   /* background-color: bisque; */
+   padding: 16px;
+   box-sizing: border-box;
+   border-right: 1px solid #ccc;
+}
+
+.rightSection{
+   width: 29%;
+   min-height: 70vh;
+   display: inline-block;
+   /* background-color: coral; */
+   padding: 16px;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   vertical-align: top;
+   overflow: hidden;
+}
+
+.VideoPlayer{
+   width:100%;
+   height:380px;
+}
+
+.playersection > h3{
+   font-size: 32px;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   padding-top: 16px;
+   margin: 0;
+
+}
+
+.viewStats{
+      font-size: 24px;
+      border-bottom: 1px solid #ccc;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+     
+}
+
+.viewStats i{
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+
+.vedioDescription{
+   font-size: 18px;
+   letter-spacing: 1px;
+   line-height: 1.3;
+   margin-top: 16px;
+}

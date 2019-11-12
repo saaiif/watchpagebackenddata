@@ -1,0 +1,22 @@
+.playlistContain{
+   border: 1px solid #ccc;
+   border-radius: 6px;
+   margin-bottom: 8px;
+   background-color: white;
+}
+.playlistContain > img {
+   width: 100%;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 6px;
+}
+
+.playlistContain > h3{
+   width: 100%;
+   border-radius: 10px;
+   margin-top: 10px;
+   font-size: 16px;
+}
+
+.Active{
+   border: 2px solid blueviolet;
+}
